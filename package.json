@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/bunja/mmarket-place#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "nodemon": "^2.0.6",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0"
   }
