@@ -6,6 +6,7 @@ mongoose.connect('mongodb://localhost/mmarket-place');
 const app = express();// generates a new applications that represents a running express app
 
 require('./routes/authRoutes')(app);
+require('./models/User');
 
 
 
